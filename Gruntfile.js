@@ -77,7 +77,7 @@ module.exports = function(grunt) {
     },
     concurrent: {
       target: {
-          tasks: ['compass', 'connect', 'watch:jade', 'watch:livereload', 'watch:jshint', 'watch:jshint'],
+          tasks: ['compass', 'connect', 'watch:jade', 'watch:livereload', 'watch:jshint'],
           options: {
               logConcurrentOutput: true
           }
