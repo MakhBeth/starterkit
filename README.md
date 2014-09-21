@@ -17,6 +17,8 @@ How to use
 ==========
 
 Simply clone the repository and run the command: ```npm install```
+After this you must open the folder ```app``` that will contains all the compiled files and run: ```bower install```
+This will install all the Foundation dipendencies. Now you can return on the main folder: ```cd ..```
 After you can start the magic with: ```grunt start```
 
 There are other grunt tasks ready:
