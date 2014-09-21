@@ -1,0 +1,24 @@
+{
+  "name": "woovie",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "grunt-autowatch": "^0.1.4",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-compass": "~1.0.1",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-jade": "^0.12.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.5.3",
+    "load-grunt-tasks": "~0.6.0"
+  }
+}
