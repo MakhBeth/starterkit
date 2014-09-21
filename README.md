@@ -1,24 +1,25 @@
-starterkit
+Starterkit
 ==========
 
-This is a simple starter kit for modern web fronted developer. Including Foundation and Gruntfiles for jade, compass, jshint and a little nodjs server
+This is a simple starter kit for modern web frontend development. 
+Including Foundation and Gruntfiles for jade, compass, jshint and a little nodejs server
 
  It's intented for personal use, but feel free to reuse or what else. 
- In the package you'll found a modified version of Zurb Foundation 5
+ In the package you'll find a modified version of Zurb Foundation 5 with:
  * Support for ie8.
- * Jade is used for generate html
+ * Jade used for generate html
  * Compass with sass syntax
  * Jshint 
  * Livereload
- * and Grunt for watcher and connect server
+ * and Grunt for watchers and server
 
-how to use
+How to use
 ==========
 
 Simply clone the repository and run the command: ```npm install```
 After you can start the magic with: ```grunt start```
 
-There are other grunt task ready:
+There are other grunt tasks ready:
 
 watcher compass: ```grunt start-compass```
 
@@ -28,7 +29,7 @@ only jade watcher: ```grunt start-jade```
 
 only live reload: ```grunt start-livereload```
 
-You can easily modify ```Gruntfile.js``` to combine them together
+You can easily modify ```Gruntfile.js``` for combine them together
 
 
 Dependencies
