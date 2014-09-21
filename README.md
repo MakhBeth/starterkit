@@ -33,5 +33,5 @@ You can easily modify ```Gruntfile.js``` to combine them together
 
 Dependencies
 ============
-You need to have (http://nodejs.org)[node.js], (https://github.com/cowboy/grunt)[grunt.js], (https://www.ruby-lang.org/)[Ruby], (http://sass-lang.com)[SASS] and (http://compass-style.org)[Compass] installed for this to work.
+You need to have [node.js](http://nodejs.org), [grunt.js](https://github.com/cowboy/grunt), [Ruby](https://www.ruby-lang.org/), [SASS](http://sass-lang.com) and [Compass](http://compass-style.org) installed for this to work.
 
