@@ -16,27 +16,30 @@ Including Foundation and Gruntfiles for jade, compass, jshint and a little nodej
 How to use
 ==========
 
-Simply clone the repository and run the commands: 
-```npm install```
-and:
-```bower install```
-This will install all the Foundation dipendencies. 
-After you can start the magic with: ```grunt start```
+ Simply clone the repository and run the commands: 
+ ```npm install```
+ and:
+ ```bower install```
+ This will install all the Foundation dipendencies. 
+ After you can start the magic with: ```grunt start```
+ 
+ There are other grunt tasks ready:
+ 
+ watcher compass: ```grunt start-compass```
+ 
+ only server: ```grunt start-server```
+ 
+ only jade watcher: ```grunt start-jade```
+ 
+ only live reload: ```grunt start-livereload```
+ 
+ You can easily modify ```Gruntfile.js``` for combine them together
 
-There are other grunt tasks ready:
+If you want change the ```app``` folder name or location, rename/move it and change:
+ * the variable: ```app``` in ```Gruntfile.js``` file (the first after the grunt initConfig)
+ * the variable: ```directory``` in ```.bowerrc```  file
+ * and the variable: ```add_import_path``` in ```config.rb```
 
-watcher compass: ```grunt start-compass```
-
-only server: ```grunt start-server```
-
-only jade watcher: ```grunt start-jade```
-
-only live reload: ```grunt start-livereload```
-
-You can easily modify ```Gruntfile.js``` for combine them together
-
-If you want change the ```app``` folder name, rename it and change the ```Gruntfile.js```
-variable: ```app``` (the first after the grunt initConfig)
 
 
 Dependencies
