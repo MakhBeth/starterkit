@@ -19,7 +19,7 @@ How to use
  Simply clone the repository and run the commands: 
  ```npm install```
  and:
- ```bower install```
+ ```bower install```  
  This will install all the Foundation dipendencies. 
  After you can start the magic with: ```grunt start```
  
