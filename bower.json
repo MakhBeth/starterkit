@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": "true",
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundation": "zurb/bower-foundation",
+    "REM-unit-polyfill": "https://github.com/chuckcarpenter/REM-unit-polyfill.git#~1.3.2"
   }
 }
