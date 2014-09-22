@@ -7,10 +7,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-
 	grunt.initConfig({
-		pkg: grunt.file.readJSON('package.json'),
     app: 'app/',
+		pkg: grunt.file.readJSON('package.json'),
 
     compass: { 
       dist: {

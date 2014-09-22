@@ -16,9 +16,11 @@ Including Foundation and Gruntfiles for jade, compass, jshint and a little nodej
 How to use
 ==========
 
-Simply clone the repository and run the command: ```npm install```
-After this you must open the folder ```app``` that will contains all the compiled files and run: ```bower install```
-This will install all the Foundation dipendencies. Now you can return on the main folder: ```cd ..```
+Simply clone the repository and run the commands: 
+```npm install```
+and:
+```bower install```
+This will install all the Foundation dipendencies. 
 After you can start the magic with: ```grunt start```
 
 There are other grunt tasks ready:
@@ -32,6 +34,9 @@ only jade watcher: ```grunt start-jade```
 only live reload: ```grunt start-livereload```
 
 You can easily modify ```Gruntfile.js``` for combine them together
+
+If you want change the ```app``` folder name, rename it and change the ```Gruntfile.js```
+variable: ```app``` (the first after the grunt initConfig)
 
 
 Dependencies
