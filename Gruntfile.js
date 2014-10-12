@@ -61,7 +61,7 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      jade: {tasks: ['jade'], files: 'view/*.jade'},
+      jade: {tasks: ['jade'], files: ['view/*.jade', 'view/**/*.jade']},
       livereload: {
         files: ['<%= app %>/**/*.html', '!<%= app %>/bower_components/**', '<%= app %>/js/**/*.js', '<%= app %>/css/**/*.css', '<%= app %>/images/**/*.{jpg,gif,svg,jpeg,png}'],
         options: {
